@@ -38,6 +38,82 @@ other words, what's the scope of this effort?
 
 Include where in the designate tree hierarchy this will reside.
 
+API Changes
+-----------
+
+Include API Changes here. If you are adding endpoints / add major modifications
+please ensure you have examples for calls / results - eg:
+
+POST /v2/doohickey
+^^^^^^^^^^^^^^^^^^
+
+This creates a doohicky.
+
+It returns an ID and the doohickey
+
+.. code-block:: http
+
+    POST /v2/doohickey HTTP/1.1
+    Accept: application/json
+    Content-Type: application/json
+
+    {
+        "doohickey":{
+            "foo":"bar"
+        }
+    }
+
+    HTTP/1.1 201 Created
+    Content-Type: application/json; charset=UTF-8
+    Location: /v2/doohickey/cddda8f0-f558-11e3-a3ac-0800200c9a66
+
+    {
+        "doohickey":{
+            "id":"cddda8f0-f558-11e3-a3ac-0800200c9a66",
+            "foo":"bar",
+            "links":{
+                "self" : "/v2/doohickey/cddda8f0-f558-11e3-a3ac-0800200c9a66"
+            }
+        }
+    }
+
+It may be usefull to add a table with the parameters, and a info about them
+
++-----------+--------------------------------+----------+
+| Parameter | Description                    | Required |
++===========+================================+==========+
+| foo       | the foo value for the doohicky | Yes      |
++-----------+--------------------------------+----------+
+
+Central Changes
+---------------
+
+Any changes to the central service
+
+Storage Changes
+---------------
+
+Any changes to the DB. This should be a table (if creating a new table)
+eg:
+
+
+New Table - DooHickey
+^^^^^^^^^^^^^^^^^^^^^
+
++-----+---------+-----------+---------+
+| Row | Type    | Nullable? | Unique? |
++=====+=========+===========+=========+
+| id  | uuid    | No        | Yes     |
++-----+---------+-----------+---------+
+| foo | VARCHAR | No        | No      |
++-----+---------+-----------+---------+
+
+Other Changes
+-------------
+
+Any other changes to Designate, broken down by which sub system is being
+changed
+
 Alternatives
 ------------
 
