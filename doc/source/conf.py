@@ -23,7 +23,7 @@ import sys
 extensions = [
     'sphinx.ext.autodoc',
     #'sphinx.ext.intersphinx',
-    'oslosphinx'
+    #'oslosphinx'
 ]
 
 # Optionally allow the use of sphinxcontrib.spelling to verify the
