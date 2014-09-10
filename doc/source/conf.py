@@ -22,9 +22,14 @@ import sys
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'yasfb',
     #'sphinx.ext.intersphinx',
     #'oslosphinx'
 ]
+
+# Feed configuration for yasfb
+feed_base_url = 'http://specs.openstack.org/openstack/designate-specs'
+feed_author = 'OpenStack Designate Team'
 
 # Optionally allow the use of sphinxcontrib.spelling to verify the
 # spelling of the documents.
