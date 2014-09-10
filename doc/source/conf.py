@@ -27,6 +27,11 @@ extensions = [
     #'oslosphinx'
 ]
 
+exclude_patterns = [
+    '**/template.rst',
+    '**/example.rst',
+]
+
 # Feed configuration for yasfb
 feed_base_url = 'http://specs.openstack.org/openstack/designate-specs'
 feed_author = 'OpenStack Designate Team'
