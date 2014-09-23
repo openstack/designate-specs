@@ -24,7 +24,6 @@ import sys
 extensions = [
     'sphinx.ext.autodoc',
     'yasfb',
-    #'sphinx.ext.intersphinx',
     #'oslosphinx'
 ]
 
@@ -89,6 +88,3 @@ latex_documents = [
      u'%s Documentation' % project,
      u'OpenStack Foundation', 'manual'),
 ]
-
-# Example configuration for intersphinx: refer to the Python standard library.
-#intersphinx_mapping = {'http://docs.python.org/': None}
