@@ -14,7 +14,7 @@ database.
 Problem description
 ===================
 
-Once deleted, domains are not removed immediatly from the database, mostly for
+Once deleted, domains are not removed immediately from the database, mostly for
 billing reasons. They are flagged as deleted in the "deleted" database column
 and the "deleted_at" column is populated with a timestamp.
 
@@ -45,7 +45,7 @@ plugin. The task will select a group of domains and send a RPC call to Central.
 Central will run a query against the database to purge any deleted domain if
 needed and log the number of purged domains.
 
-Configuration paramenters:
+Configuration parameters:
 
 Purging run frequency.
   Default: hourly. Users might want to run it frequently to minimize the cycle duration.
@@ -122,7 +122,7 @@ Milestones
 ----------
 
 Target Milestone for completion:
-  Libery-3
+  Liberty-3
 
 Work Items
 ----------
