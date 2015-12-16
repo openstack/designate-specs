@@ -169,3 +169,9 @@ Dependencies
 
 - Does this feature require any new library dependencies or code otherwise not
   included in OpenStack? Or does it depend on a specific version of library?
+
+Upgrade Implications
+====================
+
+Does the spec introduce a change for those running the current, or an older
+version of Designate? If so, describe the change(s).
