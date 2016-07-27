@@ -30,8 +30,8 @@ In other services like Nova there is a clear "owner" for each core resource
 each nova-compute instance to periodically emit a `compute.instance.exists`
 event for a small number of instances. Designate has no such clear owner,
 and many thousands of zones may belong to a single pool (the smallest
-grouping we current;y have available). This poses a problem, in that emitting
-100's of thousands of events, or more, each hour may be too demaining for the
+grouping we currently have available). This poses a problem, in that emitting
+100's of thousands of events, or more, each hour may be too demanding for the
 active pool manager.
 
 Proposed change
