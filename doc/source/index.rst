@@ -44,6 +44,14 @@ Newton approved specs:
 
    specs/newton/*
 
+Ocata approved specs:
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/ocata/*
+
 ==================
 Indices and tables
 ==================
