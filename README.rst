@@ -5,7 +5,7 @@ designate-specs
 OpenStack Designate Project Development Specs
 
 * Free software: Apache license
-* Documentation: http://docs.openstack.org/developer/designate-specs
+* Documentation: http://specs.openstack.org/openstack/designate-specs/
 
 Features
 --------
