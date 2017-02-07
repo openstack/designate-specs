@@ -86,7 +86,7 @@ It returns an ID and the doohickey
         }
     }
 
-It may be usefull to add a table with the parameters, and a info about them
+It may be useful to add a table with the parameters, and a info about them
 
 +-----------+--------------------------------+----------+
 | Parameter | Description                    | Required |
