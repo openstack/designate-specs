@@ -149,5 +149,5 @@ Dependencies
 ============
 
 - Requires the OpenStack Tooz library be added to our requirements
-- Requires infrastructure for the the OpenStack Tooz library (memcache, redis,
+- Requires infrastructure for the OpenStack Tooz library (memcache, redis,
   or zookeeper)
