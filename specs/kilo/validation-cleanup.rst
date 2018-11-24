@@ -47,7 +47,7 @@ to reference other object easily.
 
 To implement the registry, the `DesignateObjectMetaclass` class will be updated
 to track a reference to each of the Object classes as they are constructed.
-Theese references will be stored in a dictionary attached to the
+These references will be stored in a dictionary attached to the
 `DesignateObject` base class.
 
 .. note:: The `DesignateObjectMetaclass` code is executed while the object

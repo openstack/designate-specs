@@ -106,7 +106,7 @@ This service will use the existing oslo-incubator ThreadGroup.add_timer()
 methods for scheduling tasks, and the tooz library for group membership.
 
 The timer interval will be exposed as a configuration value, defaulting to
-3600 seconds. The interval will be independant of any other timers introduced
+3600 seconds. The interval will be independent of any other timers introduced
 into this service in the future.
 
 Group membership will be implemented as a `Service` mixin, similar to
