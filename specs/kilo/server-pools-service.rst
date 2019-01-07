@@ -172,7 +172,7 @@ Cast vs. Call
 """""""""""""
 This is an RPC cast.  Communication about the status of the domain update
 will be handled using the Central **update_status** method which is
-called by the the Pool Manager **update_status** method.  The minidns
+called by the Pool Manager **update_status** method.  The minidns
 **poll_for_serial_number** method invokes the Pool Manager
 **update_status** method when it completes.
 
