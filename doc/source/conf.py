@@ -32,7 +32,7 @@ exclude_patterns = [
 ]
 
 # Feed configuration for yasfb
-feed_base_url = 'http://specs.openstack.org/openstack/designate-specs'
+feed_base_url = 'https://specs.openstack.org/openstack/designate-specs'
 feed_author = 'OpenStack Designate Team'
 
 # Optionally allow the use of sphinxcontrib.spelling to verify the
@@ -65,7 +65,7 @@ add_function_parentheses = True
 add_module_names = True
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 # -- Options for HTML output --------------------------------------------------
 
@@ -95,3 +95,8 @@ latex_documents = [
      u'%s Documentation' % project,
      u'OpenStack Foundation', 'manual'),
 ]
+
+# openstackdocstheme options
+openstackdocs_repo_name = 'openstack/designate-specs'
+openstackdocs_bug_project = 'designate'
+openstackdocs_bug_tag = ''
