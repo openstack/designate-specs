@@ -52,6 +52,14 @@ Ocata approved specs:
 
    specs/ocata/*
 
+Ussuri approved specs:
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/ussuri/*
+
 ==================
 Indices and tables
 ==================
