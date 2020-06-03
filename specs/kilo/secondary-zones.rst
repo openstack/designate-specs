@@ -69,7 +69,7 @@ When creating a new zone the *managed_resource_email* is used as the initial *em
 
 The fields *version* will be *1* since it's not yet transferred and *transferred_at* as *null*.
 
-.. code-block:: http
+.. code-block::
 
         POST /v2/zones HTTP/1.1
         Host: 127.0.0.1:9001
@@ -85,7 +85,7 @@ The fields *version* will be *1* since it's not yet transferred and *transferred
           }
         }
 
-.. code-block:: http
+.. code-block::
 
         HTTP/1.1 201 Created
         Content-Type: application/json
@@ -120,7 +120,7 @@ Retrieves a secondary zone with the specified ID.
 
 Example of GET on a untransferred zone:
 
-.. code-block:: http
+.. code-block::
 
 
         GET /v2/zones/a86dba58-0043-4cc6-a1bb-69d5e86f3ca3 HTTP/1.1
@@ -128,7 +128,7 @@ Example of GET on a untransferred zone:
         Accept: application/json
         Content-Type: application/json
 
-.. code-block:: http
+.. code-block::
 
         HTTP/1.1 200 OK
         Vary: Accept
@@ -164,14 +164,14 @@ To filter on zone type do type=<PRIMARY|SECONDARY> as query parameters.
 
 Below there is examples of a Zone that's not transferred yet and one that is.
 
-.. code-block:: http
+.. code-block::
 
         GET /v2/zones?type=SECONDARY HTTP/1.1
         Host: 127.0.0.1:9001
         Accept: application/json
         Content-Type: application/json
 
-.. code-block:: http
+.. code-block::
 
         HTTP/1.1 200 OK
         Vary: Accept
@@ -241,7 +241,7 @@ editable.
 +-------------+--------------------------+
 
 
-.. code-block:: http
+.. code-block::
 
         PATCH /v2/zones/a86dba58-0043-4cc6-a1bb-69d5e86f3ca3 HTTP/1.1
         Host: 127.0.0.1:9001
@@ -254,7 +254,7 @@ editable.
           }
         }
 
-.. code-block:: http
+.. code-block::
 
         HTTP/1.1 200 OK
         Content-Type: application/json
@@ -284,12 +284,12 @@ editable.
 Delete Secondary Zone
 ^^^^^^^^^^^^^^^^^^^^^
 
-.. code-block:: http
+.. code-block::
 
         DELETE /v2/zones/a86dba58-0043-4cc6-a1bb-69d5e86f3ca3 HTTP/1.1
         Host: 127.0.0.1:9001
 
-.. code-block:: http
+.. code-block::
 
         HTTP/1.1 204 No Content
 

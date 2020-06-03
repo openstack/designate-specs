@@ -61,7 +61,7 @@ GET /v2/pools
 When no id is specified, all pools are returned. No body is provided in the
 request.
 
-.. code-block:: http
+.. code-block::
 
     HTTP/1.1 200 OK
     Content-Type: application/json; charset=UTF-8
@@ -100,7 +100,7 @@ GET /v2/pools/{pool_id}
 When an id is provided in the url, the specific pool is returned with more
 detail. No body is provided in the request.
 
-.. code-block:: http
+.. code-block::
 
     HTTP/1.1 200 OK
     Content-Type: application/json; charset=UTF-8
@@ -143,7 +143,7 @@ code will be 409 Conflict.
 
 **Request**
 
-.. code-block:: http
+.. code-block::
 
     HTTP/1.1
     Content-Type: application/json; charset=UTF-8
@@ -168,7 +168,7 @@ code will be 409 Conflict.
 
 **Response**
 
-.. code-block:: http
+.. code-block::
 
     HTTP/1.1 201 Created
     Content-Type: application/json; charset=UTF-8
@@ -205,7 +205,7 @@ returned.
 
 **Request**
 
-.. code-block:: http
+.. code-block::
 
     HTTP/1.1
     Content-Type: application/json; charset=UTF-8
@@ -221,7 +221,7 @@ returned.
 
 **Response**
 
-.. code-block:: http
+.. code-block::
 
     HTTP/1.1 200 OK
     Content-Type: application/json; charset=UTF-8

@@ -116,7 +116,7 @@ This call is for a privileged user filtering recordsets by name, for one tenant,
 
 Request:
 
-.. code-block:: http
+.. code-block::
 
   GET zones/{zone-id}/recordsets?name=example*
   Host: dns.provider.com
@@ -124,7 +124,7 @@ Request:
 
 Response:
 
-.. code-block:: http
+.. code-block::
 
     {
         "recordsets": [
@@ -180,7 +180,7 @@ This call is for customers filtering recordsets by name, using exact matching.
 
 Request:
 
-.. code-block:: http
+.. code-block::
 
     GET zones/{zone-id}/recordsets?name=www.example.org.
     Host: dns.provider.com
@@ -188,7 +188,7 @@ Request:
 
 Response:
 
-.. code-block:: http
+.. code-block::
 
     {
         "recordsets": [
@@ -230,7 +230,7 @@ The data parameter can be used in conjunction with other parameters.
 
 Request:
 
-.. code-block:: http
+.. code-block::
 
     GET zones/{zone-id}/recordsets?data=1.2.3.*
     Host: dns.provider.com
@@ -238,7 +238,7 @@ Request:
 
 Response:
 
-.. code-block:: http
+.. code-block::
 
     {
         "recordsets": [
