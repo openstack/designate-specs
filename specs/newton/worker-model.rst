@@ -313,7 +313,7 @@ worker. This is because of a variety of compatibility measures taken:
 
 - ``designate-central`` will have a configurable "zone api" that it can swap
   between ``designate-pool-manager`` and ``designate-worker``. If the worker
-  process is enabled, central can send c/u/d zones events to the the worker
+  process is enabled, central can send c/u/d zones events to the worker
   instead of the pool manager.
 - ``designate-worker``'s ability to send NOTIFYs and Poll DNS servers can
   replace a portion of ``designate-mdns``' responsibilities. For certain
