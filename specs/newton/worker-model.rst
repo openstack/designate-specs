@@ -201,7 +201,7 @@ will be one place to scale. It should be possible to have an extremely robust
 Designate architecture by simply scaling these workers.
 
 ``designate-mdns`` will have it's entire RPCAPI transferred to
-``designate-worker``. This will vastly simplify the the amount of work it needs
+``designate-worker``. This will vastly simplify the amount of work it needs
 to do while it sits in the critical path of providing zone transfers to
 nameservers Designate manages.
 
