@@ -71,7 +71,7 @@ be filtered from view within the API.
 
 Additionally, ALIAS RRSets will not be visible in the V1 API. Instead,
 a dynamically generated TXT record will be included to indicate the
-existence of the the ALIAS record that is only editable via the V2
+existence of the ALIAS record that is only editable via the V2
 API.
 
 
