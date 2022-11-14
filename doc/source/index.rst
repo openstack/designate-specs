@@ -60,6 +60,14 @@ Ussuri approved specs:
 
    specs/ussuri/*
 
+Antelope approved specs:
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/antelope/*
+
 ==================
 Indices and tables
 ==================
