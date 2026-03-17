@@ -68,6 +68,14 @@ Antelope approved specs:
 
    specs/antelope/*
 
+2026.2 (Hibiscus) approved specs:
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/2026.2/*
+
 ==================
 Indices and tables
 ==================
