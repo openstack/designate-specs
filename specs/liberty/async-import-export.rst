@@ -80,7 +80,7 @@ and the Content-Type header must be set to 'text/dns'.
 
 This returns an id for the import request, for the user to query.
 
-.. code-block:: http
+.. code-block:: text
 
     POST /v2/zones/tasks/import HTTP/1.1
     Accept: application/json
